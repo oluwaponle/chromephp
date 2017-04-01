@@ -21,3 +21,16 @@ This library allows you to log variables to the Chrome console.
 
 More information can be found here:
 http://www.chromelogger.com
+
+
+Updates by oluwaponle
+I added the setEnabled method to enable/disable logging when switching between development and production
+WSE is a shortform of With Set Enabled
+
+    ```php
+    include 'ChromePhpWSE.php';
+    ChromePhpWSE::setEnabled(true) ;  //false disables logging. Default is false to encourage proper usage and avoid showing logs on production
+    ChromePhpWSE::log('Hello console!');
+    ChromePhpWSE::log($_SERVER);
+    ChromePhpWSE::warn('something went wrong!');
+    ```
