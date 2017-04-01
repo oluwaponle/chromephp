@@ -24,7 +24,9 @@ http://www.chromelogger.com
 
 
 Updates by oluwaponle
+
 I added the setEnabled method to enable/disable logging when switching between development and production.
+
 WSE is a shortform of With Set Enabled
 
     ```php
