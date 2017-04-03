@@ -23,7 +23,7 @@ More information can be found here:
 http://www.chromelogger.com
 
 
-Updates by oluwaponle
+## Updates by oluwaponle
 
 I added the setEnabled method to enable/disable logging when switching between development and production.
 
